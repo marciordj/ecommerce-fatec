@@ -30,6 +30,15 @@
     "prettier/prettier": "error",
     "space-before-function-paren": "off",
     "react/prop-types": "off",
-    "no-use-before-define":"off"
+    "no-use-before-define":"off",
+    "max-len": [
+      "warn",
+      120,
+      2,
+      {
+        "ignorePattern": "^(import|export)",
+        "ignoreUrls": true
+      }
+    ]
   }
 }
